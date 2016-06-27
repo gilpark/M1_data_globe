@@ -1,0 +1,1006 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"f",
+				"float	float"
+			],
+			[
+				"su",
+				"Sun	GameObject"
+			],
+			[
+				"ro",
+				"rotation	Quaternion { get; set; }"
+			],
+			[
+				"mouse",
+				"GetMouseButton(int button)	bool"
+			],
+			[
+				"Vec",
+				"Vector3()	Vector3()"
+			],
+			[
+				"s",
+				"scale	Vector3"
+			],
+			[
+				"Ve",
+				"Vector3()	Vector3()"
+			],
+			[
+				"lo",
+				"localScale	Vector3 { get; set; }"
+			],
+			[
+				"Eve",
+				"EventSystem	GameObject"
+			],
+			[
+				"eve",
+				"EventSystem	GameObject"
+			],
+			[
+				"F",
+				"Find(string name)	GameObject"
+			],
+			[
+				"ca",
+				"canvas	Canvas"
+			],
+			[
+				"Uni",
+				"UnityEngine	UnityEngine"
+			],
+			[
+				"ge",
+				"geo_long	float"
+			],
+			[
+				"c",
+				"_clonedItem	_clonedItem"
+			],
+			[
+				"_",
+				"_item	Item"
+			],
+			[
+				"for",
+				"foreach	foreach"
+			],
+			[
+				"re",
+				"return	return"
+			],
+			[
+				"dp",
+				"dp_prefab	GameObject"
+			],
+			[
+				"tr",
+				"true	true"
+			],
+			[
+				"glob",
+				"globe	GameObject"
+			],
+			[
+				"b",
+				"blue	Color { get; }"
+			],
+			[
+				"gr",
+				"green	Color { get; }"
+			],
+			[
+				"ve",
+				"Vector3	Vector3"
+			],
+			[
+				"Ma",
+				"Mathf	Mathf"
+			],
+			[
+				"vec",
+				"Vector3()	Vector3()"
+			],
+			[
+				"t",
+				"time"
+			],
+			[
+				"na",
+				"name"
+			],
+			[
+				"geo",
+				"geo_long"
+			],
+			[
+				"tweet",
+				"tweet_id"
+			],
+			[
+				"item",
+				"itemContainer	itemContainer"
+			],
+			[
+				"ite",
+				"itemes	itemContainer"
+			],
+			[
+				"De",
+				"Deserialize(TextReader textReader)	object"
+			],
+			[
+				"String",
+				"StringReader(string s)	StringReader(string s)"
+			],
+			[
+				"xmls",
+				"XmlSerializer()	XmlSerializer()"
+			],
+			[
+				"TEx",
+				"TextAsset	TextAsset"
+			],
+			[
+				"Re",
+				"Resources	Resources"
+			],
+			[
+				"Texta",
+				"TextAsset	TextAsset"
+			],
+			[
+				"Item",
+				"itemContainer	itemContainer"
+			],
+			[
+				"xmlArry",
+				"XmlArrayItemAttribute	XmlArrayItemAttribute"
+			],
+			[
+				"Li",
+				"List<	List<"
+			],
+			[
+				"S",
+				"Serialization	Serialization"
+			],
+			[
+				"mar",
+				"margin-left"
+			],
+			[
+				"pa",
+				"padding-left"
+			],
+			[
+				"wid",
+				"width"
+			],
+			[
+				"tex",
+				"text-decoration"
+			],
+			[
+				"padding",
+				"padding"
+			],
+			[
+				"di",
+				"display"
+			],
+			[
+				"pad",
+				"padding-top"
+			],
+			[
+				"to",
+				"toggleClass"
+			],
+			[
+				"cli",
+				"click"
+			],
+			[
+				"in",
+				"inline-block"
+			],
+			[
+				"im",
+				"important"
+			],
+			[
+				"hi",
+				"hide"
+			],
+			[
+				"con",
+				"console"
+			],
+			[
+				"get_next",
+				"get_next_post_link"
+			],
+			[
+				"previ",
+				"previous_post_link"
+			],
+			[
+				"tra",
+				"transition"
+			],
+			[
+				"ma",
+				"margin-top"
+			],
+			[
+				"padd",
+				"padding-top"
+			],
+			[
+				"get_tem",
+				"get_template_directory_uri"
+			],
+			[
+				"le",
+				"letter-spacing"
+			],
+			[
+				"font",
+				"font-size"
+			],
+			[
+				"max",
+				"max-width"
+			],
+			[
+				"marg",
+				"margin-top"
+			],
+			[
+				"min",
+				"min-width"
+			],
+			[
+				"the_co",
+				"the_content"
+			],
+			[
+				"fl",
+				"float"
+			],
+			[
+				"fun",
+				"function"
+			],
+			[
+				"background-c",
+				"background-color"
+			],
+			[
+				"wp_nav_",
+				"wp_nav_menu"
+			],
+			[
+				"wp_get_nav",
+				"wp_get_nav_menu_items"
+			],
+			[
+				"wp_enque",
+				"wp_enqueue_style"
+			],
+			[
+				"wp_enqu",
+				"wp_enqueue_script"
+			],
+			[
+				"get_sty",
+				"get_stylesheet_uri"
+			],
+			[
+				"side",
+				"sidebars_widgets"
+			],
+			[
+				"get_h",
+				"get_header"
+			],
+			[
+				"theti",
+				"the_title"
+			],
+			[
+				"have",
+				"have_posts"
+			],
+			[
+				"hvae",
+				"have_posts"
+			],
+			[
+				"ga",
+				"GameObject	GameObject"
+			],
+			[
+				"Find",
+				"FindWithTag(string tag)	GameObject"
+			],
+			[
+				"OS",
+				"OSCController	OSCController"
+			],
+			[
+				"e",
+				"end	bool"
+			],
+			[
+				"Mo",
+				"Move	float"
+			],
+			[
+				"Eq",
+				"Equals(string value)	bool"
+			],
+			[
+				"Pla",
+				"Player	Player"
+			],
+			[
+				"st",
+				"StartGame(int mode)	void"
+			],
+			[
+				"co",
+				"color	Color { get; set; }"
+			],
+			[
+				"uv",
+				"uvWidth	float"
+			],
+			[
+				"pip",
+				"pipeSegmentCount	int"
+			],
+			[
+				"curve",
+				"curveSegmentCount	int"
+			],
+			[
+				"Key",
+				"KeyCode	KeyCode"
+			],
+			[
+				"ground",
+				"groundRadius	float"
+			],
+			[
+				"Overlap",
+				"OverlapCircle(Vector2 point, float radius)	Collider2D"
+			],
+			[
+				"Tras",
+				"Transform	Transform"
+			],
+			[
+				"Ani",
+				"Animator	Animator"
+			],
+			[
+				"Ri",
+				"Rigidbody2D	Rigidbody2D"
+			],
+			[
+				"loca",
+				"localScale	Vector3 { get; set; }"
+			],
+			[
+				"fa",
+				"facingRight	bool"
+			],
+			[
+				"rig",
+				"rigidbody2D	Component { get; }"
+			],
+			[
+				"V",
+				"Vector2()	Vector2()"
+			],
+			[
+				"ri",
+				"rigidbody2D	Component { get; }"
+			],
+			[
+				"GetA",
+				"GetAxis(string axisName)	float"
+			],
+			[
+				"this",
+				"this_collider	BoxCollider"
+			],
+			[
+				"Fl",
+				"Flux	Flux"
+			],
+			[
+				"cell",
+				"cell_width	float"
+			],
+			[
+				"Draw",
+				"DrawLine(Vector3 from, Vector3 to)	void"
+			],
+			[
+				"VEc",
+				"Vector3()	Vector3()"
+			],
+			[
+				"is",
+				"isGoal	bool"
+			],
+			[
+				"til",
+				"tiles	Cell[]"
+			],
+			[
+				"fo",
+				"force	Vector3"
+			],
+			[
+				"Vect",
+				"Vector3	Vector3"
+			],
+			[
+				"Ge",
+				"GetComponent<T>()	T"
+			],
+			[
+				"ce",
+				"cellScript	Cell"
+			],
+			[
+				"_fin",
+				"_findNeighbors(int id, Cell c)	void"
+			],
+			[
+				"n",
+				"neighbors	int[]"
+			],
+			[
+				"Get",
+				"GetComponent<T>()	T"
+			],
+			[
+				"fro",
+				"front	int"
+			],
+			[
+				"get",
+				"GetComponent<T>()	T"
+			],
+			[
+				"flux",
+				"Flux2	Flux2"
+			],
+			[
+				"EditorG",
+				"EditorGUILayout	EditorGUILayout"
+			],
+			[
+				"col",
+				"cols	int"
+			],
+			[
+				"C",
+				"Count	int { get; }"
+			],
+			[
+				"G",
+				"GameObject	GameObject"
+			],
+			[
+				"Col",
+				"Color	Color"
+			],
+			[
+				"tras",
+				"transform	Transform { get; }"
+			],
+			[
+				"cel",
+				"cell_rigidbody	Rigidbody"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "Assets/Scripts/UI/CameraFacingBillboard.cs",
+			"settings":
+			{
+				"buffer_size": 1116,
+				"line_ending": "Unix"
+			}
+		}
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 354.0,
+		"last_filter": "pa",
+		"selected_items":
+		[
+			[
+				"pa",
+				"Package Control: Install Package"
+			],
+			[
+				"pack",
+				"Package Control: Install Package"
+			]
+		],
+		"width": 467.0
+	},
+	"console":
+	{
+		"height": 126.0,
+		"history":
+		[
+			"import urllib.request,os,hashlib; h = '2915d1851351e5ee549c20394736b442' + '8bc59f460fa1548d1514676163dafc88'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://packagecontrol.io/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by)"
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/Users/Gil/Projects/WIP/M1_data_globe/Assets/Scripts",
+		"/Users/Gil/Projects/WIP/M1_data_globe/Assets/Scripts/UI"
+	],
+	"file_history":
+	[
+		"/Users/Gil/Projects/WIP/M1_data_globe/Assets/Scripts/Extra/MouseOrbitImproved.cs",
+		"/Users/Gil/Projects/WIP/M1_data_globe/Assets/Scripts/Extra/LatLong2XYZ.cs",
+		"/Users/Gil/Projects/WIP/M1_data_globe/Assets/Scripts/xml/ItemContainer.cs",
+		"/Users/Gil/Projects/WIP/M1_data_globe/Assets/Scripts/xml/ItemLoder.cs",
+		"/Users/Gil/Projects/Git/Fluxsystem_Unity/src/Flux.cs",
+		"/Users/Gil/Projects/WIP/M1_data_globe/Assets/Scripts/LatLonDebuger.cs",
+		"/Users/Gil/Projects/WIP/M1_data_globe/Assets/Scripts/xml/send2UI.cs",
+		"/Users/Gil/Projects/WIP/M1_data_globe/Assets/Scripts/send2UI.cs",
+		"/Users/Gil/Projects/WIP/M1_data_globe/Assets/Scripts/xml/Info.cs",
+		"/Users/Gil/Projects/WIP/M1_data_globe/Assets/Scripts/xml/DatapointHandler.cs",
+		"/Users/Gil/Projects/WIP/M1_data_globe/Assets/Scripts/UI/UIeventMaster.cs",
+		"/Users/Gil/Projects/WIP/M1_data_globe/Assets/Scripts/xml/InfoHandler.cs",
+		"/Users/Gil/Projects/WIP/M1_data_globe/Assets/Scripts/LatLong2XYZ.cs",
+		"/Users/Gil/Projects/WIP/M1_data_globe/Assets/Scripts/xml/Item.cs",
+		"/Users/Gil/Projects/WIP/M1_data_globe/Assets/Scripts/LatLonDebuger.cs.meta",
+		"/Users/Gil/Projects/WIP/M1_data_globe/Assets/Scripts/LatLong_js.js",
+		"/Users/Gil/Projects/WIP/M1_data_globe/Assets/Scripts/Extra/DragMouseOrbit.cs",
+		"/Users/Gil/Projects/WIP/M1_data_globe/Assets/Scripts/Extra/Drag2rotate.cs",
+		"/Users/Gil/Projects/WIP/M1_data_globe/Assets/Scripts/LatLonDebug.cs",
+		"/Users/Gil/Projects/WIP/M1_data_globe/Assets/Scripts/Extra/raycast.cs",
+		"/Users/Gil/Projects/WIP/glob_Test/Assets/data/dummy.xml",
+		"/Users/Gil/Projects/WIP/glob_Test/Assets/Scripts/itemLoder.cs",
+		"/Users/Gil/Projects/WIP/glob_Test/Assets/Scripts/itemContainer.cs",
+		"/Users/Gil/Projects/WIP/glob_Test/Assets/Scripts/item.cs",
+		"/Users/Gil/Projects/WIP/glob_Test/glob_Test.sublime-project",
+		"/Users/Gil/Downloads/tweets.xml",
+		"/Users/Gil/Projects/WIP/glob_Test/Assets/@myscripts/LatLong_js.js",
+		"/Users/Gil/Projects/WIP/twtstream2SQL/config.csv",
+		"/Users/Gil/Projects/WIP/twtstream2SQL/sketch.properties",
+		"/Users/Gil/Projects/WIP/StatusJSONImpl",
+		"/Users/Gil/Downloads/Tweetinvi/Cheatsheet.cs",
+		"/Volumes/gilpark.com/gilpark.com/wp-content/plugins/photoswipe-masonry/photoswipe-masonry.php",
+		"/Users/Gil/Projects/Git/Fluxsystem_Unity/README.md",
+		"/Volumes/gilpark.com/gilpark.com/wp-content/themes/gil/style.css",
+		"/Volumes/gilpark.com/gilpark.com/wp-content/themes/gil/template-parts/content-page.php",
+		"/Volumes/gilpark.com/gilpark.com/wp-content/themes/gil/page.php",
+		"/Volumes/gilpark.com/gilpark.com/wp-content/themes/gil/header.php",
+		"/Volumes/gilpark.com/gilpark.com/wp-includes/formatting.php",
+		"/Users/Gil/Downloads/twitter4j-4.0.4/twitter4j-examples/src/main/java/twitter4j/examples/stream/PrintUserStream.java",
+		"/Users/Gil/Downloads/twitter4j-4.0.4/twitter4j-examples/src/main/java/twitter4j/examples/stream/PrintSiteStreams.java",
+		"/Users/Gil/Downloads/twitter4j-4.0.4/twitter4j-examples/src/main/java/twitter4j/examples/stream/PrintSampleStream.java",
+		"/Users/Gil/Downloads/twitter4j-4.0.4/twitter4j-examples/src/main/java/twitter4j/examples/stream/PrintRawSampleStream.java",
+		"/Users/Gil/Downloads/twitter4j-4.0.4/twitter4j-examples/src/main/java/twitter4j/examples/stream/PrintLinksStream.java",
+		"/Users/Gil/Downloads/twitter4j-4.0.4/twitter4j-examples/src/main/java/twitter4j/examples/stream/PrintFirehoseStream.java",
+		"/Users/Gil/Downloads/twitter4j-4.0.4/twitter4j-examples/src/main/java/twitter4j/examples/stream/PrintFilterStream.java",
+		"/Users/Gil/Downloads/twitter4j-4.0.4/twitter4j-examples/src/main/java/twitter4j/examples/geo/GetGeoDetails.java",
+		"/Users/Gil/Downloads/twitter4j-4.0.4/twitter4j-examples/src/main/java/twitter4j/examples/stream/PrintRetweetStream.java",
+		"/Users/Gil/Downloads/twitter4j-4.0.4/twitter4j-examples/src/main/java/twitter4j/examples/oauth/GetAccessToken.java",
+		"/Users/Gil/Downloads/twitter4j-4.0.4/twitter4j-examples/src/main/java/twitter4j/examples/geo/SearchPlaces.java",
+		"/Users/Gil/Downloads/twitter4j-4.0.4/twitter4j-examples/src/main/java/twitter4j/examples/geo/ReverseGeoCode.java",
+		"/Users/Gil/Downloads/twitter4j-4.0.4/twitter4j-examples/src/main/java/twitter4j/examples/geo/package-info.java",
+		"/Users/Gil/Downloads/twitter4j-4.0.4/twitter4j-examples/src/main/java/twitter4j/examples/geo/GetSimilarPlaces.java",
+		"/Users/Gil/Downloads/twitter4j-4.0.4/twitter4j-examples/twitter4j-examples-4.0.4-javadoc.jar",
+		"/Volumes/gilpark.com/gilpark.com/wp-content/themes/gil/functions.php",
+		"/Volumes/gilpark.com/gilpark.com/wp-content/plugins/responsive-videos-fitvids/responsive-videos-fitvids.php",
+		"/Volumes/gilpark.com/gilpark.com/wp-content/plugins/responsive-videos-fitvids/lib/fitvids-frontend.php",
+		"/Volumes/gilpark.com/gilpark.com/wp-content/plugins/responsive-videos-fitvids/lib/fitvids-backend.php",
+		"/Volumes/gilpark.com/gilpark.com/wp-content/themes/gil/template-parts/content-page_bk.php",
+		"/Volumes/gilpark.com 2/gilpark.com/wp-content/themes/gil/single.php",
+		"/Volumes/gilpark.com 2/gilpark.com/wp-content/themes/gil/js/init.js",
+		"/Volumes/gilpark.com 2/gilpark.com/wp-content/themes/gil/js/main.js",
+		"/Volumes/gilpark.com 2/gilpark.com/wp-content/plugins/photoswipe-masonry/photoswipe-masonry.php",
+		"/Volumes/gilpark.com 2/gilpark.com/wp-content/themes/gil/functions.php",
+		"/Volumes/gilpark.com 2/gilpark.com/wp-content/themes/gil/style.css",
+		"/Volumes/gilpark.com/gilpark.com/wp-content/themes/gil/template-parts/content.php",
+		"/Volumes/gilpark.com/gilpark.com/wp-content/plugins/easy-google-fonts/easy-google-fonts.php",
+		"/Volumes/gilpark.com/gilpark.com/wp-content/themes/gil/style_final.css",
+		"/Volumes/gilpark.com/gilpark.com/wp-content/plugins/easy-google-fonts/includes/customizer/class-egf-customize-manager.php",
+		"/Volumes/gilpark.com/gilpark.com/wp-content/plugins/easy-google-fonts/includes/class-egf-admin-controller.php",
+		"/Volumes/gilpark.com/gilpark.com/wp-content/plugins/easy-google-fonts/class-easy-google-fonts.php",
+		"/Volumes/gilpark.com/gilpark.com/wp-content/plugins/easy-google-fonts/includes/class-egf-font-utilities.php",
+		"/Volumes/gilpark.com/gilpark.com/wp-content/plugins/easy-google-fonts/includes/class-egf-register-options.php",
+		"/Volumes/gilpark.com/gilpark.com/wp-content/plugins/easy-google-fonts/index.php",
+		"/Volumes/gilpark.com/gilpark.com/wp-content/themes/gil/js/init.js",
+		"/Volumes/gilpark.com/gilpark.com/wp-content/themes/gil/index.php",
+		"/Volumes/gilpark.com/gilpark.com/wp-content/themes/gil/style_bk2.css",
+		"/Volumes/gilpark.com/gilpark.com/wp-content/themes/gil/single.php",
+		"/Users/Gil/Downloads/Respond-Menu/css/styles.css",
+		"/Volumes/gilpark.com/gilpark.com/wp-content/themes/gil/footer.php",
+		"/Volumes/gilpark.com/gilpark.com/wp-content/themes/gil/style_sourcecode.css",
+		"/Volumes/gilpark.com/gilpark.com/wp-content/themes/gil/js/main.js",
+		"/Volumes/gilpark.com/gilpark.com/wp-content/themes/gil/js/init_bk.js",
+		"/Volumes/gilpark.com/gilpark.com/wp-content/themes/gil/header_bk.php",
+		"/Volumes/gilpark.com/gilpark.com/wp-content/plugins/photoswipe-masonry/photoswipe-dist/photoswipe.css",
+		"/Volumes/gilpark.com/gilpark.com/wp-content/plugins/photoswipe-masonry/admin.css",
+		"/Volumes/gilpark.com/gilpark.com/wp-content/plugins/photoswipe-masonry/photoswipe-dist/default-skin/default-skin.css",
+		"/Users/Gil/Desktop/WP/www.kristianhammerstad.com/css/style.css",
+		"/Volumes/gilpark.com/gilpark.com/wp-content/themes/gil/style_bk.css",
+		"/Volumes/gilpark.com/gilpark.com/wp-content/themes/gil/single_bk2.php",
+		"/Volumes/gilpark.com/gilpark.com/wp-content/themes/gil/index_bk2.php",
+		"/Users/Gil/Desktop/WP/www.kristianhammerstad.com/index.html",
+		"/Users/Gil/Desktop/WP/www.syedrezaali.com/index.html",
+		"/Volumes/gilpark.com/gilpark.com/wp-content/themes/bootstrapwp/single.php",
+		"/Volumes/gilpark.com/gilpark.com/wp-content/themes/sendtogil/single.php",
+		"/Users/Gil/Downloads/madebyminimal.com/demo/made/v1/index.html",
+		"/Volumes/gilpark.com/gilpark.com/wp-content/themes/bootstrapwp/index.php",
+		"/Volumes/gilpark.com/gilpark.com/wp-content/themes/gil/single_bk.php",
+		"/Users/Gil/Desktop/WP/www.erikjohanssonphoto.com/index.html",
+		"/Volumes/gilpark.com/gilpark.com/wp-content/themes/gil/template-parts/content-none.php",
+		"/Users/Gil/Desktop/WP/www.erikjohanssonphoto.com/soundscapes/index.html",
+		"/Volumes/gilpark.com/gilpark.com/wp-content/themes/gil/page_bk.php",
+		"/Volumes/gilpark.com 2/gilpark.com/wp-content/themes/gil/footer_bk.php",
+		"/Volumes/gilpark.com 2/gilpark.com/wp-content/themes/gil/footer.php",
+		"/Volumes/gilpark.com 2/gilpark.com/wp-content/themes/gil/index.php",
+		"/Volumes/gilpark.com 2/gilpark.com/wp-content/themes/gil/header.php",
+		"/Volumes/gilpark.com 2/gilpark.com/wp-content/themes/gilpark/footer.php",
+		"/Volumes/gilpark.com 2/gilpark.com/wp-content/themes/gil/header_bk.php",
+		"/Volumes/gilpark.com/gilpark.com/wp-content/themes/gil/inc/custom-header.php",
+		"/Volumes/gilpark.com/gilpark.com/wp-content/themes/gil/sidebar_bk.php",
+		"/Volumes/gilpark.com/gilpark.com/wp-content/themes/sendtogil/js/masonry-init_bk.js",
+		"/Volumes/gilpark.com/gilpark.com/wp-content/themes/sendtogil/js/scripts.js",
+		"/Volumes/gilpark.com/gilpark.com/wp-content/themes/sendtogil/js/customizer.js",
+		"/Volumes/gilpark.com/gilpark.com/wp-content/themes/sendtogil/js/masonry-init.js",
+		"/Volumes/gilpark.com/gilpark.com/wp-content/themes/gil/inc/extras.php",
+		"/Volumes/gilpark.com/gilpark.com/wp-content/themes/gil/inc/jetpack.php",
+		"/Volumes/gilpark.com/gilpark.com/wp-content/themes/gil/inc/template-tags.php",
+		"/Volumes/gilpark.com/gilpark.com/wp-content/themes/gil/inc/customizer.php",
+		"/Volumes/gilpark.com/gilpark.com/wp-content/themes/sendtogil/style_bk2.css",
+		"/Volumes/gilpark.com/gilpark.com/wp-content/themes/sendtogil/bootstrap/css/bootstrap.css",
+		"/Volumes/gilpark.com/gilpark.com/css/style.css",
+		"/Volumes/gilpark.com/gilpark.com/wp-content/themes/sendtogil/content.php",
+		"/Volumes/gilpark.com/gilpark.com/wp-content/themes/sendtogil/footer.php",
+		"/Volumes/gilpark.com/gilpark.com/wp-content/themes/sendtogil/index.php",
+		"/Volumes/gilpark.com/gilpark.com/wp-content/themes/sendtogil/header.php",
+		"/Volumes/gilpark.com/gilpark.com/wp-content/themes/gil/template-parts/content_bk.php",
+		"/Volumes/gilpark.com/gilpark.com/wp-content/themes/gil/index_bk.php",
+		"/Volumes/gilpark.com/gilpark.com/wp-content/themes/gil/footer_bk.php",
+		"/Volumes/gilpark.com/gilpark.com/js/main.js"
+	],
+	"find":
+	{
+		"height": 28.0
+	},
+	"find_in_files":
+	{
+		"height": 158.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"            // transform.rotation = rotation;\n            // transform.position = position;",
+			"mousex",
+			"2",
+			"lon2",
+			"lat2",
+			";\n",
+			"Rad",
+			"rad",
+			"Rad",
+			"rad",
+			"lon",
+			"lat",
+			"mylatitude",
+			"</column>",
+			"column name=\"tweet_text\"",
+			"<column name=\"tex.*?>(.*?)</column>",
+			"<column name=\"sc.*?>(.*?)</column>",
+			"<column name=\"geo_lat.*?>(.*?)</column>",
+			"column name=\"created_at\"",
+			"<column name=\"crea.*?>(.*?)</column>",
+			"<column name=\"user.*?>(.*?)</column>",
+			"<column name=\"pro.*?>(.*?)</column>",
+			"<column name=\"name\">",
+			"<column name=\"name.*?>(.*?)</column>",
+			"column name=\"geo_long\"",
+			"<column name=\"geo_long.*?>(.*?)</column>",
+			"column name=\"geo_lat",
+			"column name=\"geo_long",
+			"<column name=\"geo_lat.*?>(.*?)</column>",
+			"column name=\"tweet_id\"",
+			"/table",
+			"table name=\"tweets\"",
+			"%",
+			"column",
+			"itemprop",
+			"itemwidth",
+			"columns",
+			"hr",
+			"[embed]",
+			"<p",
+			"media",
+			"collap",
+			"$thumb[0]",
+			"#main",
+			"line-he",
+			"$options",
+			".$options",
+			"$itemwidth",
+			"columns",
+			"z-index",
+			".everything",
+			"everything",
+			"menu",
+			".everything",
+			"margin",
+			"-webkit-",
+			"-webkit-margin-before",
+			"    -webkit-margin-before",
+			"figure",
+			"-webkit",
+			"padding",
+			"float",
+			"init()",
+			"style=",
+			"width",
+			"masonry",
+			"style",
+			"thumbnail_height",
+			"thumbnail_width",
+			"width",
+			"PATH_TO",
+			"?>\">",
+			"4px",
+			"menu",
+			"#filtering-nav",
+			"Roboto",
+			"site-footer ",
+			"foot",
+			"font",
+			"main",
+			"#main",
+			"projectnext",
+			"#filtering-nav ",
+			"-->",
+			"site-",
+			"site-header",
+			"height: auto;",
+			"col3",
+			"wall",
+			".hentry",
+			"@media",
+			".grid-layout",
+			".site-main",
+			".post",
+			".grid-layout",
+			".hentry",
+			"masonry",
+			"grid-layout",
+			"entry-thumb",
+			"grid",
+			"gird",
+			".project-list",
+			".col",
+			".project-image",
+			"project-description-wrapper",
+			".project-image",
+			"img",
+			"../fonts",
+			"a:hover",
+			".li",
+			".nav",
+			"widget",
+			"wp_enqueue_style",
+			"script",
+			">\n",
+			"script",
+			".grid-layout .hentry",
+			"post-",
+			"entry-thumb",
+			"footer_background",
+			"site-main",
+			"site-footer",
+			"grid-layout",
+			"main",
+			"site-main",
+			"content-area",
+			"entry-header",
+			"grid-layout"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": true,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 0,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "Assets/Scripts/UI/CameraFacingBillboard.cs",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1116,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								60,
+								72
+							]
+						],
+						"settings":
+						{
+							"auto_complete_triggers":
+							[
+								{
+									"characters": "<",
+									"selector": "text.html"
+								},
+								{
+									"characters": ".#",
+									"selector": "text.html"
+								}
+							],
+							"syntax": "Packages/C#/C#.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 28.0
+	},
+	"input":
+	{
+		"height": 66.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.exec":
+	{
+		"height": 156.0
+	},
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"output.variable_get":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "",
+	"project": "M1_data_globe.sublime-project",
+	"replace":
+	{
+		"height": 52.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"",
+				"~/Projects/CH/prototype/Assets/Scripts/CharactorControllerScript.cs"
+			]
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": true,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 231.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}

@@ -6,11 +6,16 @@ using System.Xml.Serialization;
 using System;
 
 public class Item : ICloneable{
-
+	public double tweet_id;
+	public string text;
+	// public DateTime time;
 	public float geo_lat;
 	public float geo_long;
 	public string name;
-	public string text;
+	 public string place;
+	 public string lang;
+	 public string description;
+
 	
 	public object Clone(){
 		return this.MemberwiseClone();

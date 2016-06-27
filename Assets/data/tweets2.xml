@@ -1,0 +1,40 @@
+<TweetCollection>
+    <tweets>
+        <tweet>
+            <tweet_id>746879193212846081</tweet_id>
+            <text>KINESIOLOGIE Schere rezeptfrei in der Versandapotheke  Schere</text>
+            <time>2016-06-25 20:34:10</time>
+            <geo_lat>50.10560694</geo_lat>
+            <geo_long>8.69911194</geo_long>
+            <user_id>14658364</user_id>
+            <name>Online Apotheke</name>
+            <place>Frankfurt am Main</place>
+            <lang>de</lang>
+            <description>German mail service pharmacy</description>
+        </tweet>
+        <tweet>
+            <tweet_id>746879201588973568</tweet_id>
+            <text>#UltimoDíaDeBarbita @ Malecon De Miraflores </text>
+            <time>2016-06-25 20:34:12</time>
+            <geo_lat>-12.1151</geo_lat>
+            <geo_long>-77.04859</geo_long>
+            <user_id>70545998</user_id>
+            <name>ToTo GonZales</name>
+            <place>Miraflores</place>
+            <lang>es</lang>
+            <description>Fotógrafo freelance, hago muchas cosas más también ImI</description>
+        </tweet>
+        <tweet>
+            <tweet_id>746885392402620416</tweet_id>
+            <text>I'm at 上古町商店街 in 新潟市, 新潟県 </text>
+            <time>2016-06-25 20:58:48</time>
+            <geo_lat>37.91749015</geo_lat>
+            <geo_long>139.04200315</geo_long>
+            <user_id>107570876</user_id>
+            <name>ルウ</name>
+            <place>新潟市 中央区</place>
+            <lang>ja</lang>
+            <description>長岡市民→新潟市民のルウです。趣味は自動車の運転、A列車で行こう(新潟市再現マップ)、音楽(GARNET CROWや渋谷系, Negicco)、天文、などなど、節操無くツイートします。</description>
+        </tweet>
+    </tweets>
+</TweetCollection>

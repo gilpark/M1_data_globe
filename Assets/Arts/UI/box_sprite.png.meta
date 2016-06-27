@@ -1,0 +1,217 @@
+fileFormatVersion: 2
+guid: f51eee2e7925049dbadbe9079a997772
+timeCreated: 1466900649
+licenseType: Free
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: x
+    21300002: research_bar
+    21300004: username
+    21300006: usr_d
+    21300008: project_bar
+    21300010: about_bar
+    21300012: username_1
+    21300014: user_d_1
+    21300016: box_texbox
+    21300018: user_textbox
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 1
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  cubemapConvolution: 0
+  cubemapConvolutionSteps: 7
+  cubemapConvolutionExponent: 1.5
+  seamlessCubemap: 0
+  textureFormat: -1
+  maxTextureSize: 2048
+  textureSettings:
+    filterMode: -1
+    aniso: 16
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  rGBM: 0
+  compressionQuality: 50
+  allowsAlphaSplitting: 0
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 100
+  alphaIsTransparency: 1
+  textureType: 8
+  buildTargetSettings: []
+  spriteSheet:
+    sprites:
+    - name: x
+      rect:
+        serializedVersion: 2
+        x: 736
+        y: 996
+        width: 38
+        height: 38
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -19, y: 19}
+        - {x: -19, y: -19}
+        - {x: 19, y: -19}
+        - {x: 19, y: 19}
+    - name: research_bar
+      rect:
+        serializedVersion: 2
+        x: 864
+        y: 957
+        width: 922
+        height: 115
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 9, y: 8, z: 10, w: 9}
+      outline:
+      - - {x: -461, y: 57.5}
+        - {x: -461, y: -57.5}
+        - {x: 461, y: -57.5}
+        - {x: 461, y: 57.5}
+    - name: username
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 711
+        width: 320
+        height: 126
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 11, y: 10, z: 11, w: 10}
+      outline:
+      - - {x: -160, y: 63}
+        - {x: -160, y: -63}
+        - {x: 160, y: -63}
+        - {x: 160, y: 63}
+    - name: usr_d
+      rect:
+        serializedVersion: 2
+        x: 329
+        y: 711
+        width: 177
+        height: 126
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 13, y: 12, z: 12, w: 12}
+      outline:
+      - - {x: -88.5, y: 63}
+        - {x: -88.5, y: -63}
+        - {x: 88.5, y: -63}
+        - {x: 88.5, y: 63}
+    - name: project_bar
+      rect:
+        serializedVersion: 2
+        x: 864
+        y: 817
+        width: 922
+        height: 115
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 11, y: 11, z: 12, w: 10}
+      outline:
+      - - {x: -461, y: 57.5}
+        - {x: -461, y: -57.5}
+        - {x: 461, y: -57.5}
+        - {x: 461, y: 57.5}
+    - name: about_bar
+      rect:
+        serializedVersion: 2
+        x: 864
+        y: 686
+        width: 921
+        height: 113
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 12, y: 13, z: 12, w: 11}
+      outline:
+      - - {x: -460.5, y: 56.5}
+        - {x: -460.5, y: -56.5}
+        - {x: 460.5, y: -56.5}
+        - {x: 460.5, y: 56.5}
+    - name: username_1
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 519
+        width: 320
+        height: 127
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 14, y: 16, z: 12, w: 13}
+      outline:
+      - - {x: -160, y: 63.5}
+        - {x: -160, y: -63.5}
+        - {x: 160, y: -63.5}
+        - {x: 160, y: 63.5}
+    - name: user_d_1
+      rect:
+        serializedVersion: 2
+        x: 329
+        y: 519
+        width: 177
+        height: 127
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 14, y: 14, z: 14, w: 13}
+      outline:
+      - - {x: -88.5, y: 63.5}
+        - {x: -88.5, y: -63.5}
+        - {x: 88.5, y: -63.5}
+        - {x: 88.5, y: 63.5}
+    - name: box_texbox
+      rect:
+        serializedVersion: 2
+        x: 864
+        y: 0
+        width: 922
+        height: 656
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 18, y: 12, z: 14, w: 17}
+      outline:
+      - - {x: -461, y: 328}
+        - {x: -461, y: -328}
+        - {x: 461, y: -328}
+        - {x: 461, y: 328}
+    - name: user_textbox
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 123
+        width: 497
+        height: 354
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 14, y: 13, z: 16, w: 13}
+      outline:
+      - - {x: -248.5, y: 177}
+        - {x: -248.5, y: -177}
+        - {x: 248.5, y: -177}
+        - {x: 248.5, y: 177}
+    outline: []
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

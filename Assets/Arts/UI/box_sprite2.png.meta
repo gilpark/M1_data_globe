@@ -1,0 +1,185 @@
+fileFormatVersion: 2
+guid: 9806de324ffb142a0b13f5d138818038
+timeCreated: 1466904154
+licenseType: Free
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: box_sprite2_0
+    21300002: box_sprite2_1
+    21300004: username
+    21300006: box_sprite2_3
+    21300008: box_sprite2_4
+    21300010: username_1
+    21300012: box_sprite2_6
+    21300014: box_sprite2_7
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 1
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  cubemapConvolution: 0
+  cubemapConvolutionSteps: 7
+  cubemapConvolutionExponent: 1.5
+  seamlessCubemap: 0
+  textureFormat: -1
+  maxTextureSize: 2048
+  textureSettings:
+    filterMode: -1
+    aniso: 16
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  rGBM: 0
+  compressionQuality: 50
+  allowsAlphaSplitting: 0
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 100
+  alphaIsTransparency: 1
+  textureType: 8
+  buildTargetSettings: []
+  spriteSheet:
+    sprites:
+    - name: box_sprite2_0
+      rect:
+        serializedVersion: 2
+        x: 736
+        y: 996
+        width: 38
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -19, y: 19}
+        - {x: -19, y: -19}
+        - {x: 19, y: -19}
+        - {x: 19, y: 19}
+    - name: box_sprite2_1
+      rect:
+        serializedVersion: 2
+        x: 864
+        y: 957
+        width: 922
+        height: 115
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -461, y: 57.5}
+        - {x: -461, y: -57.5}
+        - {x: 461, y: -57.5}
+        - {x: 461, y: 57.5}
+    - name: username
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 711
+        width: 496
+        height: 126
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 13, y: 11, z: 12, w: 10}
+      outline:
+      - - {x: -248, y: 63}
+        - {x: -248, y: -63}
+        - {x: 248, y: -63}
+        - {x: 248, y: 63}
+    - name: box_sprite2_3
+      rect:
+        serializedVersion: 2
+        x: 864
+        y: 817
+        width: 922
+        height: 115
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -461, y: 57.5}
+        - {x: -461, y: -57.5}
+        - {x: 461, y: -57.5}
+        - {x: 461, y: 57.5}
+    - name: box_sprite2_4
+      rect:
+        serializedVersion: 2
+        x: 864
+        y: 685
+        width: 922
+        height: 115
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -461, y: 57.5}
+        - {x: -461, y: -57.5}
+        - {x: 461, y: -57.5}
+        - {x: 461, y: 57.5}
+    - name: username_1
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 519
+        width: 496
+        height: 127
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 13, y: 17, z: 15, w: 13}
+      outline:
+      - - {x: -248, y: 63.5}
+        - {x: -248, y: -63.5}
+        - {x: 248, y: -63.5}
+        - {x: 248, y: 63.5}
+    - name: box_sprite2_6
+      rect:
+        serializedVersion: 2
+        x: 864
+        y: 0
+        width: 922
+        height: 656
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -461, y: 328}
+        - {x: -461, y: -328}
+        - {x: 461, y: -328}
+        - {x: 461, y: 328}
+    - name: box_sprite2_7
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 123
+        width: 497
+        height: 354
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -248.5, y: 177}
+        - {x: -248.5, y: -177}
+        - {x: 248.5, y: -177}
+        - {x: 248.5, y: 177}
+    outline: []
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

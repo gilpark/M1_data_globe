@@ -5,40 +5,65 @@ using System.Collections;
 using System.Collections.Generic;
 using System;
 
-public class _clonedItem : MonoBehaviour {
+public class datafeild : MonoBehaviour {
+	
+	public double tweet_id;
+	public string text;
+	public DateTime time;
 	public float geo_lat;
 	public float geo_long;
 	public string name;
-	public string text;
+	public string place;
+	public string lang;
+	public string description;
+
 }
 public class ItemLoder : MonoBehaviour {
 
-	public const string path = "Assets/data/dummy.xml";
+	// public string path = "Assets/data/";
 	
-	public GameObject dp_prefab;
-	public List<GameObject> Datapoints = new List<GameObject>();
+	public GameObject datapoint;
+	public List<GameObject> datapoints = new List<GameObject>();
+	public GameObject place, lang;
 
-	void Start () {
+	GameObject DPcontainer;
+
+	public void createItemsFromFile (String f_name) {
+
+		 string path = "Assets/data/" + f_name;
+
 		ItemContainer ic = ItemContainer.Load(path);
+		Add_dp(ic);
+
+	}
+
+	public void Add_dp(ItemContainer ic){
+			DPcontainer = new GameObject();
+			DPcontainer.name = "dataPoints";
 
 		for (int i = 0; i < ic.items.Count; i++){
-			GameObject dp = (GameObject) Instantiate(dp_prefab, Vector3.zero, Quaternion.identity);
-			dp.name = "tweet-"+i;
-			dp.transform.parent = transform;
-			dp.AddComponent<_clonedItem>();
+			GameObject dp = (GameObject) Instantiate(datapoint, Vector3.zero, Quaternion.identity);
+			dp.name = ""+i;
+			dp.transform.SetParent(DPcontainer.transform);
+			dp.AddComponent<datafeild>();
 			dp.AddComponent<LatLong2XYZ>();
-			dp.AddComponent<send2UI>();
-			_clonedItem cp = dp.GetComponent<_clonedItem>();
+			datafeild field = dp.GetComponent<datafeild>();
 			
 			//@TODO : finde easier way to copy properties e.g) clone();
-			cp.name = ic.items[i].name;
-			cp.geo_lat = ic.items[i].geo_lat;
-			cp.geo_long = ic.items[i].geo_long;
-			cp.text = ic.items[i].text;
-
-			dp.GetComponent<LatLong2XYZ>().lat = cp.geo_lat;
-			dp.GetComponent<LatLong2XYZ>().lon = cp.geo_long;
-			Datapoints.Add(dp);
+			field.name = ic.items[i].name;
+			field.geo_lat = ic.items[i].geo_lat;
+			field.geo_long = ic.items[i].geo_long;
+			field.text = ic.items[i].text;
+			field.description = ic.items[i].description;
+			field.lang = ic.items[i].lang;
+			field.place = ic.items[i].place;
+			
+			if(place != null && field.place != null)place.GetComponent<Loadfilters>().createBtn(field.place);
+			if(lang != null && field.lang != null)lang.GetComponent<Loadfilters>().createBtn(field.lang);
+			//
+			dp.GetComponent<LatLong2XYZ>().lat = field.geo_lat;
+			dp.GetComponent<LatLong2XYZ>().lon = field.geo_long;
+			datapoints.Add(dp);
 			// print(ic.items[i].name + " cp ");
 		}
 	}

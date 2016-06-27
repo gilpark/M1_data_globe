@@ -1,25 +1,29 @@
 ﻿using UnityEngine;
 using System.Collections;
 using UnityEngine.UI;
-public class UIeventMaster : MonoBehaviour {
 
-	// Use this for initialization
-	public Canvas canvas;
-	public bool toggle;
+public static class FilterMaster{
+	public static bool user;
+	public static bool tweet;
+	public static bool lang;
+}
 
-	public Text user,text;
+public  class UIEventMaster : MonoBehaviour {
 
-	void Start () {
+	public  bool user;
+	public  bool tweet;
+	public  bool lang;
 
-	}
-	
-	void Update () {
-		if(toggle){
-			user.enabled = true;
-			text.enabled = true;
-		}else{
-			user.enabled = false;
-			text.enabled = false;
-		}
+	public Toggle p_user, p_tweet, p_lang;
+
+	void Update(){
+
+		user = p_user.isOn;
+		tweet = p_tweet.isOn;
+		lang = p_lang.isOn;
+
+		FilterMaster.user = user;
+		FilterMaster.tweet = tweet;
+		FilterMaster.lang = lang;
 	}
 }

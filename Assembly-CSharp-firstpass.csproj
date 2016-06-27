@@ -94,6 +94,7 @@
      <None Include="Assets\_MK\_MKGlow\_Shader\_MKBase\Transparent\MK_Transparent-DiffuseBumpRim.shader" />
      <None Include="Assets\_MK\_MKGlow\_Shader\_MKBase\Sprites\MK_Sprite-Default.shader" />
      <None Include="Assets\_MK\_MKGlow\_Shader\_MKBase\Cutout\MK_Cutout-SoftEdgeUnlit.shader" />
+     <None Include="Assets\data\06-24.xml" />
      <None Include="Assets\Standard Assets\Effects\ImageEffects\Shaders\ShowAlphaChannel.shader" />
      <None Include="Assets\_MK\_MKGlow\_Shader\_MKBase\Transparent\MK_Transparent-DiffuseRim.shader" />
      <None Include="Assets\_MK\_MKGlow\_Shader\_MKBase\Reflective\MK_Reflective-ParallaxSpec.shader" />
@@ -128,13 +129,13 @@
      <None Include="Assets\Standard Assets\Effects\ImageEffects\Shaders\ContrastComposite.shader" />
      <None Include="Assets\Standard Assets\Effects\ImageEffects\Shaders\_Antialiasing\FXAAPreset3.shader" />
      <None Include="Assets\Standard Assets\Effects\ImageEffects\Shaders\FisheyeShader.shader" />
-     <None Include="Assets\data\dummy.xml" />
      <None Include="Assets\_MK\_MKGlow\_Shader\_MKBase\Mobile\MK_Mobile-DiffuseBumped.shader" />
      <None Include="Assets\Standard Assets\Effects\ImageEffects\Shaders\Contrast Stretch\Apply.shader" />
      <None Include="Assets\Standard Assets\Effects\ImageEffects\Shaders\frag_ao.cginc" />
      <None Include="Assets\_MK\_MKGlow\_Shader\_MKBase\Particles\MK_Particles-MulitplyDouble.shader" />
      <None Include="Assets\_MK\_MKGlow\_Shader\_MKBase\Particles\MK_Particles-Additive.shader" />
      <None Include="Assets\_MK\_MKGlow\_Shader\_MKBase\Normal\MK_Normal-DiffuseDetail.shader" />
+     <None Include="Assets\data\tweets2.xml" />
      <None Include="Assets\_MK\_MKGlow\_Shader\_MKBase\Lightmapped\MK_Lightmap-DiffuseBumped.shader" />
      <None Include="Assets\_MK\_MKGlow\_Shader\_MKBase\Toon\MK_Toon-Basic.shader" />
      <None Include="Assets\_MK\_MKGlow\_Shader\_MKBase\Cutout\MK_Cutout-DiffuseBumpSpec.shader" />
@@ -200,10 +201,12 @@
      <None Include="Assets\Standard Assets\Effects\ImageEffects\Shaders\_Antialiasing\FXAA2.shader" />
      <None Include="Assets\Shaders\Planet.shader" />
      <None Include="Assets\_MK\_MKGlow\_Shader\_MKBase\Illumin\MK_Illumin-Diffuse.shader" />
+     <None Include="Assets\data\test.xml" />
      <None Include="Assets\Standard Assets\Effects\ImageEffects\Shaders\ColorCorrection3DLut.shader" />
      <None Include="Assets\_MK\_MKGlow\_Shader\_MKBase\Normal\MK_Normal-DiffuseRim.shader" />
      <None Include="Assets\Standard Assets\Effects\ImageEffects\Shaders\_BloomAndFlares\LensFlareCreate.shader" />
      <None Include="Assets\_MK\_MKGlow\_Shader\_MKBase\Illumin\MK_Illumin-ParallaxSpec.shader" />
+     <None Include="Assets\Shaders\Default_OverlayNoZTest.shader" />
      <None Include="Assets\Standard Assets\Effects\ImageEffects\Shaders\EdgeDetectNormals.shader" />
      <None Include="Assets\Standard Assets\Effects\ImageEffects\Shaders\PrepareSunShaftsBlur.shader" />
      <None Include="Assets\_MK\_MKGlow\_Shader\_MKBase\Transparent\MK_Transparent-Glossy.shader" />
@@ -230,14 +233,14 @@
  <Reference Include="UnityEngine.Networking">
  <HintPath>/Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/Networking/UnityEngine.Networking.dll</HintPath>
  </Reference>
- <Reference Include="System.Drawing">
- <HintPath>/Users/Gil/Projects/WIP/M1_data_globe/Assets/Plugins/System.Drawing.dll</HintPath>
+ <Reference Include="MySql.Data">
+ <HintPath>/Users/Gil/Projects/WIP/M1_data_globe/Assets/Plugins/MySql.Data.dll</HintPath>
  </Reference>
  <Reference Include="System.Data">
  <HintPath>/Users/Gil/Projects/WIP/M1_data_globe/Assets/Plugins/System.Data.dll</HintPath>
  </Reference>
- <Reference Include="MySql.Data">
- <HintPath>/Users/Gil/Projects/WIP/M1_data_globe/Assets/Plugins/MySql.Data.dll</HintPath>
+ <Reference Include="System.Drawing">
+ <HintPath>/Users/Gil/Projects/WIP/M1_data_globe/Assets/Plugins/System.Drawing.dll</HintPath>
  </Reference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
