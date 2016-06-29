@@ -71,7 +71,6 @@
      <None Include="Assets\_MK\_MKGlow\_Shader\_MKBase\Transparent\MK_Transparent-DiffuseBumpRim.shader" />
      <None Include="Assets\_MK\_MKGlow\_Shader\_MKBase\Sprites\MK_Sprite-Default.shader" />
      <None Include="Assets\_MK\_MKGlow\_Shader\_MKBase\Cutout\MK_Cutout-SoftEdgeUnlit.shader" />
-     <None Include="Assets\data\06-24.xml" />
      <None Include="Assets\Standard Assets\Effects\ImageEffects\Shaders\ShowAlphaChannel.shader" />
      <None Include="Assets\_MK\_MKGlow\_Shader\_MKBase\Transparent\MK_Transparent-DiffuseRim.shader" />
      <None Include="Assets\_MK\_MKGlow\_Shader\_MKBase\Reflective\MK_Reflective-ParallaxSpec.shader" />
@@ -125,6 +124,7 @@
      <None Include="Assets\Standard Assets\Effects\ImageEffects\Shaders\_DepthOfField\DepthOfField34.shader" />
      <None Include="Assets\_MK\_MKGlow\_Shader\_MKBase\Normal\MK_Normal-Glossy.shader" />
      <None Include="Assets\_MK\_MKGlow\_Shader\_MKBase\Lightmapped\MK_Lightmap-Diffuse.shader" />
+     <None Include="Assets\data\stream+stream+stream+stream+stream+stream+stream+stream+.xml" />
      <None Include="Assets\_MK\_MKGlow\_Shader\_MKBase\Toon\MK_Toon-BasicOutline.shader" />
      <None Include="Assets\Shaders\Planet2.shader" />
      <None Include="Assets\Standard Assets\Effects\ImageEffects\Shaders\_BloomAndFlares\MobileBlur.shader" />
@@ -147,8 +147,10 @@
      <None Include="Assets\Standard Assets\Effects\ImageEffects\Shaders\CameraMotionBlurDX11.shader" />
      <None Include="Assets\_MK\_MKGlow\_Shader\_MKBase\Transparent\MK_Transparent-DiffuseBumped.shader" />
      <None Include="Assets\Standard Assets\Effects\ImageEffects\Shaders\_BloomAndFlares\SeparableBlurPlus.shader" />
+     <None Include="Assets\Plugins\Pixelplacement\iTween\ReadMe!\ReadMe!.txt" />
      <None Include="Assets\Standard Assets\Effects\Projectors\Shaders\ProjectorLight.shader" />
      <None Include="Assets\Standard Assets\Effects\ImageEffects\Shaders\_BloomAndFlares\MultiPassHollywoodFlares.shader" />
+     <None Include="Assets\data\su-.xml" />
      <None Include="Assets\Standard Assets\Effects\ImageEffects\Shaders\BlurEffectConeTaps.shader" />
      <None Include="Assets\Standard Assets\Effects\ImageEffects\Shaders\CameraMotionBlur.shader" />
      <None Include="Assets\Standard Assets\Effects\ImageEffects\Shaders\_Antialiasing\DLAA.shader" />
@@ -185,6 +187,7 @@
      <None Include="Assets\_MK\_MKGlow\_Shader\_MKBase\Illumin\MK_Illumin-ParallaxSpec.shader" />
      <None Include="Assets\Shaders\Default_OverlayNoZTest.shader" />
      <None Include="Assets\Standard Assets\Effects\ImageEffects\Shaders\EdgeDetectNormals.shader" />
+     <None Include="Assets\data\stream+.xml" />
      <None Include="Assets\Standard Assets\Effects\ImageEffects\Shaders\PrepareSunShaftsBlur.shader" />
      <None Include="Assets\_MK\_MKGlow\_Shader\_MKBase\Transparent\MK_Transparent-Glossy.shader" />
      <None Include="Assets\Standard Assets\Effects\ImageEffects\Shaders\_BloomAndFlares\Blend.shader" />

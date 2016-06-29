@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TweetCollection xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <tweets>
+    <tweet>
+      <tweet_id>7.4801819000184013E+17</tweet_id>
+      <text>Detail from our oh-so-lustworthy new cushions #Stephanielawsonstyle #neutralheaven @ Canvas… </text>
+      <geo_lat>-28.05933</geo_lat>
+      <geo_long>153.438614</geo_long>
+      <name>Canvas Espresso</name>
+      <place>Gold Coast</place>
+      <lang>en</lang>
+      <description>Espresso | gourmet food | homewares, gifts  books</description>
+    </tweet>
+    <tweet>
+      <tweet_id>7.48018290686038E+17</tweet_id>
+      <text>Eu aprendi a te adorar pelo o que es!!!</text>
+      <geo_lat>-22.7083569</geo_lat>
+      <geo_long>-43.445713</geo_long>
+      <name>Gabriel Simões</name>
+      <place>Nova Iguaçu</place>
+      <lang>pt</lang>
+      <description>Iguaçuano, 20 anos</description>
+    </tweet>
+  </tweets>
+</TweetCollection>

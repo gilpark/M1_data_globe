@@ -1,0 +1,62 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TweetCollection xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <tweets>
+    <tweet>
+      <tweet_id>7.4801782511410381E+17</tweet_id>
+      <text>Yup! Hah @ Lions Lair Spokane </text>
+      <geo_lat>47.65775</geo_lat>
+      <geo_long>-117.41362</geo_long>
+      <name>Reverend DarkBlood</name>
+      <place>Spokane</place>
+      <lang>en</lang>
+      <description>I speak with my hands, can you hear me? Huntard, Cheese Head,  Army Brat! #GAK #FortheHorde #IllumniUp #WAWerewolf #BaxWar #DBA booking: @GAK_Ent</description>
+    </tweet>
+    <tweet>
+      <tweet_id>7.4801792994655437E+17</tweet_id>
+      <text>We're #hiring! Click to apply: Counterterrorism\/Open Source Lead -  #Job #Riyadh #Veterans #Jobs #CareerArc</text>
+      <geo_lat>24.7135525</geo_lat>
+      <geo_long>46.6752968</geo_long>
+      <name>Saudi Arabia Jobs</name>
+      <place>Riyadh</place>
+      <lang>en</lang>
+      <description>Follow this account for geo-targeted Other job tweets in Saudi Arabia. Need help? Tweet us at @CareerArc!</description>
+    </tweet>
+    <tweet>
+      <tweet_id>7.4801809353700557E+17</tweet_id>
+      <text>Ultimate goal of life: Happiness 
+#rattlesnakepoint #niagaraescarpment #ontario #milton #gopro… </text>
+      <geo_lat>43.4720345</geo_lat>
+      <geo_long>-79.9285355</geo_long>
+      <name>Fariza Haider</name>
+      <place>Milton</place>
+      <lang>en</lang>
+      <description>Founder of @ekocanada,Torontonian, Raptors fan,a wanderer.Follow me as I share my travels and photography w/ u http://adventuresofjazz.com IG @travelstories1</description>
+    </tweet>
+    <tweet>
+      <tweet_id>7.4801809352860467E+17</tweet_id>
+      <text>水曜は岸和田のふじたやさんの
+きしめんの日
+
+期間限定でしてる山形の肉そばのふじたやバージョンを、きしめん中盛で¥800
+山形と名古屋とふじたやのコラボ笑
+
+濃い目のだしに鴨油と鴨出汁もプラスさ… </text>
+      <geo_lat>34.4573555</geo_lat>
+      <geo_long>135.373627</geo_long>
+      <name>ベジ</name>
+      <place>岸和田市</place>
+      <lang>ja</lang>
+      <description>四六時中ラーメン考えてます(￣◇￣;) ミナミ特に裏ナンバ呑み歩きや天満探索大好きです。たまに京都、滋賀、奈良、和歌山まで出掛けます(^O^)／ 自分好みのラーメン屋情報も流してます(^O^)</description>
+    </tweet>
+    <tweet>
+      <tweet_id>7.480181229054976E+17</tweet_id>
+      <text>Dressrosa ★ One Piece! (at Kostan Pelangi Sadang) — </text>
+      <geo_lat>-6.51056</geo_lat>
+      <geo_long>107.46257</geo_long>
+      <name>Raditya</name>
+      <place>Campaka</place>
+      <lang>in</lang>
+      <description>PEMIMPIN bukan PEMIMPI | @ghoticPWK |</description>
+    </tweet>
+  </tweets>
+</TweetCollection>

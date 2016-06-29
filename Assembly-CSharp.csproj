@@ -45,29 +45,35 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-     <Compile Include="Assets\Scripts\Extra\ActiveStateToggler.cs" />
-     <Compile Include="Assets\Scripts\Extra\Cam_rotate.cs" />
+     <Compile Include="Assets\Scripts\Extra\AnimateSpriteSheet.cs" />
      <Compile Include="Assets\Scripts\Extra\LatLonDebuger.cs" />
      <Compile Include="Assets\Scripts\Extra\LatLong2XYZ.cs" />
      <Compile Include="Assets\Scripts\Extra\MouseOrbitImproved.cs" />
+     <Compile Include="Assets\Scripts\Extra\Position_checker_UI.cs" />
      <Compile Include="Assets\Scripts\Extra\UVscroll.cs" />
-     <Compile Include="Assets\Scripts\Extra\exit.cs" />
+     <Compile Include="Assets\Scripts\Extra\movie_tex.cs" />
      <Compile Include="Assets\Scripts\Extra\raycast.cs" />
      <Compile Include="Assets\Scripts\SQL\MySQLConnector.cs" />
+     <Compile Include="Assets\Scripts\SQL\Stream_counter.cs" />
+     <Compile Include="Assets\Scripts\UI\ActiveStateToggler.cs" />
+     <Compile Include="Assets\Scripts\UI\Button_random_color.cs" />
      <Compile Include="Assets\Scripts\UI\CameraFacing.cs" />
+     <Compile Include="Assets\Scripts\UI\DataBox2SQL.cs" />
      <Compile Include="Assets\Scripts\UI\Dp_interaction.cs" />
      <Compile Include="Assets\Scripts\UI\DragPanel.cs" />
+     <Compile Include="Assets\Scripts\UI\Hover_area.cs" />
      <Compile Include="Assets\Scripts\UI\Info_binder.cs" />
      <Compile Include="Assets\Scripts\UI\Loadfilters.cs" />
-     <Compile Include="Assets\Scripts\UI\Loadxmls.cs" />
-     <Compile Include="Assets\Scripts\UI\Panel_btn.cs" />
-     <Compile Include="Assets\Scripts\UI\Panel_togle.cs" />
+     <Compile Include="Assets\Scripts\UI\Main_panel_ani.cs" />
+     <Compile Include="Assets\Scripts\UI\UIElement_smooth_scale.cs" />
      <Compile Include="Assets\Scripts\UI\UIEventMaster.cs" />
+     <Compile Include="Assets\Scripts\UI\small_circls_ani.cs" />
      <Compile Include="Assets\Scripts\xml\Item.cs" />
      <Compile Include="Assets\Scripts\xml\ItemContainer.cs" />
      <Compile Include="Assets\Scripts\xml\ItemLoder.cs" />
-     <Compile Include="Assets\Scripts\xml\date2Loder.cs" />
+     <Compile Include="Assets\Scripts\xml\Xmls2DropDown.cs" />
      <Compile Include="Assets\Scripts\xml\filter2Loder.cs" />
+     <Compile Include="Assets\Scripts\xml\test_loder.cs" />
      <Compile Include="Assets\_MK\_MKGlow\_Demo\Code\MK_DemoControl.cs" />
      <Compile Include="Assets\_MK\_MKGlow\_Demo\Code\MK_RotateObject.cs" />
      <Compile Include="Assets\_MK\_MKGlow\_Internal\MKGlow.cs" />
@@ -82,7 +88,6 @@
      <None Include="Assets\_MK\_MKGlow\_Shader\_MKBase\Transparent\MK_Transparent-DiffuseBumpRim.shader" />
      <None Include="Assets\_MK\_MKGlow\_Shader\_MKBase\Sprites\MK_Sprite-Default.shader" />
      <None Include="Assets\_MK\_MKGlow\_Shader\_MKBase\Cutout\MK_Cutout-SoftEdgeUnlit.shader" />
-     <None Include="Assets\data\06-24.xml" />
      <None Include="Assets\Standard Assets\Effects\ImageEffects\Shaders\ShowAlphaChannel.shader" />
      <None Include="Assets\_MK\_MKGlow\_Shader\_MKBase\Transparent\MK_Transparent-DiffuseRim.shader" />
      <None Include="Assets\_MK\_MKGlow\_Shader\_MKBase\Reflective\MK_Reflective-ParallaxSpec.shader" />
@@ -136,6 +141,7 @@
      <None Include="Assets\Standard Assets\Effects\ImageEffects\Shaders\_DepthOfField\DepthOfField34.shader" />
      <None Include="Assets\_MK\_MKGlow\_Shader\_MKBase\Normal\MK_Normal-Glossy.shader" />
      <None Include="Assets\_MK\_MKGlow\_Shader\_MKBase\Lightmapped\MK_Lightmap-Diffuse.shader" />
+     <None Include="Assets\data\stream+stream+stream+stream+stream+stream+stream+stream+.xml" />
      <None Include="Assets\_MK\_MKGlow\_Shader\_MKBase\Toon\MK_Toon-BasicOutline.shader" />
      <None Include="Assets\Shaders\Planet2.shader" />
      <None Include="Assets\Standard Assets\Effects\ImageEffects\Shaders\_BloomAndFlares\MobileBlur.shader" />
@@ -158,8 +164,10 @@
      <None Include="Assets\Standard Assets\Effects\ImageEffects\Shaders\CameraMotionBlurDX11.shader" />
      <None Include="Assets\_MK\_MKGlow\_Shader\_MKBase\Transparent\MK_Transparent-DiffuseBumped.shader" />
      <None Include="Assets\Standard Assets\Effects\ImageEffects\Shaders\_BloomAndFlares\SeparableBlurPlus.shader" />
+     <None Include="Assets\Plugins\Pixelplacement\iTween\ReadMe!\ReadMe!.txt" />
      <None Include="Assets\Standard Assets\Effects\Projectors\Shaders\ProjectorLight.shader" />
      <None Include="Assets\Standard Assets\Effects\ImageEffects\Shaders\_BloomAndFlares\MultiPassHollywoodFlares.shader" />
+     <None Include="Assets\data\su-.xml" />
      <None Include="Assets\Standard Assets\Effects\ImageEffects\Shaders\BlurEffectConeTaps.shader" />
      <None Include="Assets\Standard Assets\Effects\ImageEffects\Shaders\CameraMotionBlur.shader" />
      <None Include="Assets\Standard Assets\Effects\ImageEffects\Shaders\_Antialiasing\DLAA.shader" />
@@ -196,6 +204,7 @@
      <None Include="Assets\_MK\_MKGlow\_Shader\_MKBase\Illumin\MK_Illumin-ParallaxSpec.shader" />
      <None Include="Assets\Shaders\Default_OverlayNoZTest.shader" />
      <None Include="Assets\Standard Assets\Effects\ImageEffects\Shaders\EdgeDetectNormals.shader" />
+     <None Include="Assets\data\stream+.xml" />
      <None Include="Assets\Standard Assets\Effects\ImageEffects\Shaders\PrepareSunShaftsBlur.shader" />
      <None Include="Assets\_MK\_MKGlow\_Shader\_MKBase\Transparent\MK_Transparent-Glossy.shader" />
      <None Include="Assets\Standard Assets\Effects\ImageEffects\Shaders\_BloomAndFlares\Blend.shader" />

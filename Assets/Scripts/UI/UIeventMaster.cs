@@ -2,28 +2,31 @@
 using System.Collections;
 using UnityEngine.UI;
 
-public static class FilterMaster{
+//store all boolean for events
+public static class BoolMaster{
+
 	public static bool user;
 	public static bool tweet;
 	public static bool lang;
 }
 
 public  class UIEventMaster : MonoBehaviour {
+	//UI
+	public GameObject canvas_e,
+					  hover_e,
+					  ui_panel_e,
+					  ui_e,
+					  filter_e,
+					  data_e,
+					  strea_e,
+					  data_box,
+					  lang_filter,
+					  palce_filter;
+	//data
+	public GameObject dataLoder;
+	public bool mouseOnUI;
 
-	public  bool user;
-	public  bool tweet;
-	public  bool lang;
-
-	public Toggle p_user, p_tweet, p_lang;
-
-	void Update(){
-
-		user = p_user.isOn;
-		tweet = p_tweet.isOn;
-		lang = p_lang.isOn;
-
-		FilterMaster.user = user;
-		FilterMaster.tweet = tweet;
-		FilterMaster.lang = lang;
+	public void Data_e_Clicked(){
+		data_box.gameObject.SetActive(!data_box.gameObject.active);
 	}
 }

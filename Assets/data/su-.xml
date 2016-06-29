@@ -1,0 +1,76 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TweetCollection xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <tweets>
+    <tweet>
+      <tweet_id>7.4758542171915059E+17</tweet_id>
+      <text>Su primer bautismo, y lo que le espera! #argentinosub15 #mardel @ Mar del Plata, Argentina </text>
+      <geo_lat>-38</geo_lat>
+      <geo_long>-57.55</geo_long>
+      <name>Virgi</name>
+      <place>Mar del Plata</place>
+      <lang>es</lang>
+      <description>✳Jugadora de voley.
+✳Snapchat: virgiromero2.</description>
+    </tweet>
+    <tweet>
+      <tweet_id>7.4758246055309312E+17</tweet_id>
+      <text>Want to work in #Sunnyvale, CA? View our latest opening:  #Hospitality #FoodandBeverage #Job </text>
+      <geo_lat>37.36883</geo_lat>
+      <geo_long>-122.036346</geo_long>
+      <name>Guckenheimer Careers</name>
+      <place>Sunnyvale</place>
+      <lang>en</lang>
+      <description>We are a high end food service company providing quality office catering. We are looking to fill a variety of foodservice positions across the US.</description>
+    </tweet>
+    <tweet>
+      <tweet_id>7.4758457867256218E+17</tweet_id>
+      <text>I'm at Airod Aerospace Technology Sdn Bhd (AAe) in Subang, Selangor </text>
+      <geo_lat>3.13777781</geo_lat>
+      <geo_long>101.550362</geo_long>
+      <name>af;qasyr2af</name>
+      <place>Sungai Buloh</place>
+      <lang>in</lang>
+      <description>MAN UP !! #manchesterunited #iamunited</description>
+    </tweet>
+    <tweet>
+      <tweet_id>7.4758515329219789E+17</tweet_id>
+      <text>NICT Summit: Transitioning eGovernance to the Next Administration (@ Novotel Manila Araneta Center in Quezon City) </text>
+      <geo_lat>14.6201286</geo_lat>
+      <geo_long>121.054382</geo_long>
+      <name>Abigail Echano</name>
+      <place>Quezon City</place>
+      <lang>en</lang>
+      <description>Beta Female | Product Manager | Lasallian | IG: abglechano</description>
+    </tweet>
+    <tweet>
+      <tweet_id>7.4758524974439629E+17</tweet_id>
+      <text>P: Amiguito que filtro usted usa para sus fotos? R: nunca le he… </text>
+      <geo_lat>18.5</geo_lat>
+      <geo_long>-69.9833</geo_long>
+      <name>Esmailyn Pimentel</name>
+      <place>Santo Domingo Oeste</place>
+      <lang>es</lang>
+      <description>Un isleño tropical who live to love IN: esmailynpimentel Snap: elynptel2087</description>
+    </tweet>
+    <tweet>
+      <tweet_id>7.4758571114725786E+17</tweet_id>
+      <text>Aiko también lleva una vida súper ajetreada así que necesita sus… </text>
+      <geo_lat>19.3496418</geo_lat>
+      <geo_long>-99.1625061</geo_long>
+      <name>Morgan</name>
+      <place>Coyoacán</place>
+      <lang>es</lang>
+      <description>Love is to share, mine is for you</description>
+    </tweet>
+    <tweet>
+      <tweet_id>7.47585774028202E+17</tweet_id>
+      <text>Good morning, Sun @ Kampung Cherating </text>
+      <geo_lat>4.125321</geo_lat>
+      <geo_long>103.397217</geo_long>
+      <name>AdiFitri</name>
+      <place>Sungai Karang</place>
+      <lang>en</lang>
+      <description>Doodler</description>
+    </tweet>
+  </tweets>
+</TweetCollection>

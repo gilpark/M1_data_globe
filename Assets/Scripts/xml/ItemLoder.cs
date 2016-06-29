@@ -16,17 +16,30 @@ public class datafeild : MonoBehaviour {
 	public string place;
 	public string lang;
 	public string description;
+	public bool label;
+
+	public bool Filter(string _filter_name){
+		if(place.Equals(_filter_name)){
+			return true;
+		}else{
+			return false;
+		}
+		if(lang.Equals(_filter_name)){
+			return true;
+		}else{
+			return false;
+		}
+	}
 
 }
 public class ItemLoder : MonoBehaviour {
 
-	// public string path = "Assets/data/";
-	
 	public GameObject datapoint;
 	public List<GameObject> datapoints = new List<GameObject>();
-	public GameObject place, lang;
+	public GameObject E_Mst;
 
 	GameObject DPcontainer;
+	int index, old_index, new_index;
 
 	public void createItemsFromFile (String f_name) {
 
@@ -38,13 +51,13 @@ public class ItemLoder : MonoBehaviour {
 	}
 
 	public void Add_dp(ItemContainer ic){
-			DPcontainer = new GameObject();
-			DPcontainer.name = "dataPoints";
-
+			// DPcontainer = new GameObject();
+			// DPcontainer.name = "dataPoints";
+			print(ic.items.Count);
 		for (int i = 0; i < ic.items.Count; i++){
 			GameObject dp = (GameObject) Instantiate(datapoint, Vector3.zero, Quaternion.identity);
 			dp.name = ""+i;
-			dp.transform.SetParent(DPcontainer.transform);
+			dp.transform.SetParent(gameObject.transform);
 			dp.AddComponent<datafeild>();
 			dp.AddComponent<LatLong2XYZ>();
 			datafeild field = dp.GetComponent<datafeild>();
@@ -57,18 +70,53 @@ public class ItemLoder : MonoBehaviour {
 			field.description = ic.items[i].description;
 			field.lang = ic.items[i].lang;
 			field.place = ic.items[i].place;
-			
-			if(place != null && field.place != null)place.GetComponent<Loadfilters>().createBtn(field.place);
-			if(lang != null && field.lang != null)lang.GetComponent<Loadfilters>().createBtn(field.lang);
-			//
+		
 			dp.GetComponent<LatLong2XYZ>().lat = field.geo_lat;
 			dp.GetComponent<LatLong2XYZ>().lon = field.geo_long;
 			datapoints.Add(dp);
 			// print(ic.items[i].name + " cp ");
 		}
 	}
+	public void Add_dp_with_label(ItemContainer ic){
+
+		for (int i = 0; i < ic.items.Count; i++){
 	
-	void Update () {
-	
+			GameObject dp = (GameObject) Instantiate(datapoint, Vector3.zero, Quaternion.identity);
+			dp.name = ic.items[i].name;
+			dp.transform.SetParent(gameObject.transform);
+			dp.AddComponent<datafeild>();
+			dp.AddComponent<LatLong2XYZ>();
+			datafeild field = dp.GetComponent<datafeild>();
+			
+			//@TODO : finde easier way to copy properties e.g) clone();
+			// field.name = ic.items[i].name;
+			field.geo_lat = ic.items[i].geo_lat;
+			field.geo_long = ic.items[i].geo_long;
+			// field.text = ic.items[i].text;
+			// field.description = ic.items[i].description;
+			field.lang = ic.items[i].lang;
+			field.place = ic.items[i].place;
+			//
+			dp.GetComponent<Dp_interaction>().user.text = ic.items[i].name;;
+			dp.GetComponent<Dp_interaction>().ds.text = ic.items[i].description;
+			dp.GetComponent<Dp_interaction>().text.text = ic.items[i].text;
+			//
+			dp.GetComponent<LatLong2XYZ>().lat = field.geo_lat;
+			dp.GetComponent<LatLong2XYZ>().lon = field.geo_long;
+
+			dp.GetComponentInChildren<Dp_interaction>().tweet_UI.GetComponent<ActiveStateToggler>().ToggleActive();
+			datapoints.Add(dp);
+
+		}
+			// old_index = old_index + new_index;
+	}	
+	public void stream_index_2_zero () {
+		index = 0;
+	}
+	public void dataClear(){
+		foreach( GameObject g in datapoints){
+			Destroy(g);
+		}
+		datapoints.Clear();
 	}
 }

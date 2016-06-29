@@ -5,6 +5,7 @@
 
 //sql time rang query: 
 //// SELECT * FROM `tweets` WHERE `created_at` BETWEEN '2011-01-01 00:00:00' AND '2011-03-01 00:00:00'
+//SELECT * FROM `tweets` WHERE `tweet_text` LIKE '%love%'
 using UnityEngine;
 using UnityEngine.UI;
 using MySql.Data;
@@ -19,6 +20,7 @@ using System.Text;
 public class MySQLConnector : MonoBehaviour {
 	
 	public GameObject dataLoder;
+
 	public static string UTF8ByteArrayToString(Byte[] characters){
 	  return System.Text.Encoding.UTF8.GetString(characters, 0, characters.Length);
 	}
@@ -26,8 +28,9 @@ public class MySQLConnector : MonoBehaviour {
 	public static Byte[] StringToUTF8ByteArray(String text){
 	  return System.Text.Encoding.UTF8.GetBytes(text);
 	}
-	public Text _from,_to;
-	string time = " 11:11:11";
+
+    string filename;
+    string oldTimeStamp,newTimeStamp;
 
 	string constr = "Server=mysql.gilpark.com;Database=m1_twitter;User ID=gilparkcom1;Password=CNzZ!vyh;Pooling=true";
  // connection object
@@ -41,26 +44,29 @@ public class MySQLConnector : MonoBehaviour {
     void Start(){
 
     	ic = new ItemContainer();
-
+        oldTimeStamp = DateTime.Now.ToString("yyyy-MM-dd HH:mm:ss");
+        print(oldTimeStamp);
     }
 
-    public void Request(){
-    	string year = "'2016-";
-     	string time = " 11:11:11'";
+    public void Request(string search){
 
-     	string f = year + _from.text + time;
-     	string t = year + _to.text + time;
-     	ReadEntries(f, t);
+
+     	// string f = year + _from.text + time;
+     	// string t = year + _to.text + time;
+        print(search); 
+     	ReadEntries(search);
      	LogGameItems();
-     	dataLoder.GetComponent<ItemLoder>().Add_dp(ic);
+     	dataLoder.GetComponent<ItemLoder>().Add_dp_with_label(ic);
     }
 
     public void Save(){
-    	 ic.Save("Assets/data/"+_from.text +".xml" );
-    	  print("xml Saved...");
-    	  ic.items.Clear();
-    	  _to.text = "";
-    	  _from.text ="";
+        if(!filename.Equals("")){
+         ic.Save("Assets/data/"+filename+".xml" );
+          print("xml Saved...");
+        ic.items.Clear();
+        filename = "";
+        }
+          
     }
     
     public void dpClear(){
@@ -98,17 +104,26 @@ public class MySQLConnector : MonoBehaviour {
     }
 
    
-    void ReadEntries(string f, string t)
+    void ReadEntries(string search)
     {
-    	//WHERE `created_at` BETWEEN '2011-01-01 00:00:00' AND '2011-03-01 00:00:00'
+        filename = filename + search + "+";
         string query = string.Empty;
-        string rang = " WHERE created_at BETWEEN " + f + " AND " + t;
-    
+        if(search.Equals("stream")){
+            ic.items.Clear();
+            newTimeStamp = DateTime.Now.ToString("yyyy-MM-dd HH:mm:ss");
+
+            query = "SELECT * FROM tweets WHERE created_at BETWEEN '" + oldTimeStamp + "' AND '" + newTimeStamp+"'";
+             oldTimeStamp = newTimeStamp;
+            }else{
+            string term = "LIKE '%" + search + "%'";
+            query = "SELECT * FROM tweets WHERE tweet_text " +term;
+        }
+            print(query);
+    	//WHERE `created_at` BETWEEN '2011-01-01 00:00:00' AND '2011-03-01 00:00:00'
         // Error trapping in the simplest form
         try
         {
-            query = "SELECT * FROM tweets" + rang;
-            print(query);
+
             if (con.State.ToString() != "Open")
                 con.Open();
             using (con)
@@ -116,6 +131,7 @@ public class MySQLConnector : MonoBehaviour {
                 using (cmd = new MySqlCommand(query, con))
                 {
                     rdr = cmd.ExecuteReader();
+
                     if (rdr.HasRows)
                         while (rdr.Read())
                         {
@@ -142,6 +158,7 @@ public class MySQLConnector : MonoBehaviour {
         finally
         {
         }
+                                       
     }
 	
 	void LogGameItems()
