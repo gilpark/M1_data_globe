@@ -1,7 +1,7 @@
 # M1_data_globe
 Dtat globe in Unity
 
-[![IMAGE ALT TEXT HERE](Globe.jpg)]
+![IMAGE ALT TEXT HERE](Globe.jpg)
 
 videos
 
